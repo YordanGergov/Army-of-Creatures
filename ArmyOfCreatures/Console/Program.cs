@@ -5,6 +5,7 @@
     using System.Threading;
 
     using ArmyOfCreatures.Console.Commands;
+    using ArmyOfCreatures.Extended;
     using ArmyOfCreatures.Logic;
     using ArmyOfCreatures.Logic.Battles;
 

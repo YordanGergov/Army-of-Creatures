@@ -51,7 +51,7 @@
     <Compile Include="Console\Commands\SkipCommand.cs" />
     <Compile Include="Console\ConsoleWriter.cs" />
     <Compile Include="Console\Program.cs" />
-    <Compile Include="Extended\Creatures\Goblin.cs" />
+    <Compile Include="Extended\DeleteMe.cs" />
     <Compile Include="Logic\Battles\BattleManager.cs" />
     <Compile Include="Logic\Battles\CreatureIdentifier.cs" />
     <Compile Include="Logic\Battles\CreaturesInBattle.cs" />
@@ -78,6 +78,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Extended\Creatures\" />
     <Folder Include="Extended\Specialties\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
