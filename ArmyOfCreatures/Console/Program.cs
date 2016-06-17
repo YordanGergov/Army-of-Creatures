@@ -38,7 +38,7 @@
         private static ICreaturesFactory GetCreaturesFactory()
         {
             // You are allowed to add, change and remove code here
-            return new CreaturesFactory();
+            return new ExtentedCreatureFactory();
         }
     }
 }
